@@ -12,7 +12,7 @@
 }
 
 i {
-  color: black;
+  color: red;
   font-size: 200px;
   text-shadow: 0 0 5px red, 0 0 45px red, 0 0 90px red;
   animation: beat 1s infinite;
