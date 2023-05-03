@@ -4,6 +4,12 @@
   background: black;
 }
 
+body {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
 .heart {
   position: absolute;
   top: 50%;
@@ -13,9 +19,22 @@
 
 i {
   color: red;
-  font-size: 200px;
+  font-size: 260px;
   text-shadow: 0 0 5px red, 0 0 45px red, 0 0 90px red;
   animation: beat 1s infinite;
+}
+
+.text {
+  margin-top: 40px;
+  color: white;
+  background: none;
+  font-size: 35px;
+  text-shadow: 0 0 5px red, 0 0 45px red, 0 0 90px red;
+  animation: beat 1s infinite;
+}
+
+b {
+  background: none;
 }
 
 @keyframes beat {
