@@ -32,6 +32,13 @@ i {
   font-size: 35px;
 }
 
+.small-text {
+  margin-top: 40px;
+  color: white;
+  background: none;
+  font-size: 25px;
+ }
+
 b {
   background: none;
 }
